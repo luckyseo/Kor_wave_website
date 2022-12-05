@@ -1,6 +1,6 @@
 .nav_bar{
     position:sticky;
-    top:41px;
+    top:37px;
     padding: 20px 0px;
     background-color: white;
 }
@@ -14,7 +14,13 @@
     display: flex;
     width:55%;
     justify-content: space-around;
+    flex-wrap: nowrap;
 }
 .nav_link span{
+    color: black;
     font-size:large;
+    font-weight: bold;
+}
+.nav_link:visited{
+    text-decoration: none;
 }

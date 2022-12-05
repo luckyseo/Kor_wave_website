@@ -1,0 +1,24 @@
+
+.fade_out_greeting{
+    animation: fadeout 3s;
+}
+@keyframes fadeout {
+    from{
+        background-size: cover;
+        opacity: 1;
+    }to{
+        opacity: 0;
+        display: none;
+    }
+}
+.fade_in_greeting{
+    animation: fadein 3s;
+}
+@keyframes fadein {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+    
+}
