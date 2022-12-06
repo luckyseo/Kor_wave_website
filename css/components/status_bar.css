@@ -6,7 +6,8 @@
     box-sizing: border-box;
     justify-content: space-around;
     padding: 10px 0px;
-    background-color: white;
+    /*background-color: white;
+    */
     font-weight: 500;
 }
 .status_bar_right,

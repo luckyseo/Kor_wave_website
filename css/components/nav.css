@@ -2,7 +2,8 @@
     position:sticky;
     top:37px;
     padding: 20px 0px;
-    background-color: white;
+    /*background-color: white;*/
+    
 }
 .nav{
     display:flex;
@@ -17,7 +18,7 @@
     flex-wrap: nowrap;
 }
 .nav_link span{
-    color: black;
+    color:whitesmoke;
     font-size:large;
     font-weight: bold;
 }
