@@ -21,3 +21,16 @@ bgimg.style.backgroundSize = "cover";
 //document.querySelector("#StartPage").setAttribute("background-image",`img/${image}`)
 console.log(bgimg.style.backgroundImage)
 
+/*menu nav bar design */
+
+const navMenu = document.querySelectorAll(".nav_menu")
+
+function showUnderline(event){
+    event.target.style.boxShadow= "0px 6px 7px -4px whitesmoke";
+}
+function eraseUnderline(event){
+    event.target.style.boxShadow= "none";
+
+}
+navMenu.forEach((menu)=>(menu).addEventListener("mouseenter",showUnderline))
+navMenu.forEach((menu)=>(menu).addEventListener("mouseleave",eraseUnderline))

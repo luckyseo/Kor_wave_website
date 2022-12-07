@@ -10,6 +10,12 @@
     <title>Korea Wave</title>
 </head>
 <body>
+    <div class="loading">
+        <div class="center">
+        <div class="loading_sentence">Hi 안녕하세요:)</div>
+        <div class="loading_sentence">Loading ...</div>
+        </div>
+    </div>
     <div class="status_bar">
         <div class="status_bar_right"></div>
         <div class="status_bar_center clock">
@@ -19,6 +25,38 @@
         <div class="status_bar_left">
         </div>
     </div>
+    <header class="nav_bar">
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_menu" >
+                    <a class="nav_link" href="index.html" >
+                        <span>HOME</span>
+                    </a>
+                </li >
+                <li class="nav_menu">
+                    <a class="nav_link" href="k-pop.html"><span>K-Pop</span></a>
+                </li>
+                <li class="nav_menu">
+                    <a class="nav_link" href="k-drama.html"><span>K-Drama</span></a>
+                </li>
+                <li class="nav_menu">
+                    <a class="nav_link" href="k-musical.html"><span>K-Musical</span></a>
+                </li>
+                <li class="nav_menu">
+                    <a class="nav_link" href="k-music.html"><span>K-Music</span></a>
+                </li>
+                <li class="nav_menu">
+                    <a class="nav_link" href="k-food.html"><span>K-Food</span></a>
+                </li>
+                <li class="nav_menu">
+                    <a class="nav_link" href="k-art.html"><span>K-Art</span></a>
+                </li>
+                <li class="nav_menu">
+                    <a class="nav_link" href="#"><span>인식</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <form id ="login-form" class="hidden"> 
         <input type ="text" placeholder="What is your name?"/>
         <button>Log In</button>
@@ -43,5 +81,6 @@
     <script src="js/index.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/login.js"></script>
+    <script src="js/loading.js"></script>
 </body>
 </html>

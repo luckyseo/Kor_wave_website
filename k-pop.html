@@ -7,25 +7,38 @@
     <meta property="og:image" content="img/citystreet.jpg">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/korflag.jpg">
-    <title>K-Pop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Korea Wave</title>
 </head>
 <body>
+    <div class="loading">
+        <div class="center">
+        <div class="loading_sentence">Ready to dive in K-Pop?</div>
+        <div class="loading_sentence">Loading ...</div>
+        </div>
+    </div>
     <div class="status_bar">
         <div class="status_bar_right"></div>
         <div class="status_bar_center clock">
             <span>KST</span>
-            <span>00:00</span></div>
-        <div class="status_bar_left">
-            <div class="lang"><span>언어</span></div>
-            <button class="logIn">log In</button>
+            <span>00:00</span>
         </div>
+        <div class="status_bar_left hidden">
+            <button class="lang" >Lang</button>
+            <button class="logIn" onclick="location.href='login.html'">log In</button>
+        </div>
+    </div>
+    <div class="Banner">
+        <h2 class="BannerAnimation">K-POP</h2>
     </div>
     <header class="nav_bar">
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_menu" >
                     <a class="nav_link" href="index.html" >
-                        <span>Home</span>
+                        <span>HOME</span>
                     </a>
                 </li >
                 <li class="nav_menu">
@@ -33,9 +46,6 @@
                 </li>
                 <li class="nav_menu">
                     <a class="nav_link" href="k-drama.html"><span>K-Drama</span></a>
-                </li>
-                <li class="nav_menu">
-                    <a class="nav_link" href="k-musical.html"><span>K-Musical</span></a>
                 </li>
                 <li class="nav_menu">
                     <a class="nav_link" href="k-music.html"><span>K-Music</span></a>
@@ -47,18 +57,49 @@
                     <a class="nav_link" href="k-art.html"><span>K-Art</span></a>
                 </li>
                 <li class="nav_menu">
-                    <a class="nav_link" href="#"><span>인식</span></a>
+                    <a class="nav_link" href="k-movie.html"><span>K-Movie</span></a>
                 </li>
             </ul>
         </nav>
     </header>
-    
+        <section class="k-pop__intro">
+            <p>
+                K-Pop이란 한국에서 대중적 인기를 얻은 유행 음악을 총칭한 이름이다. 원래는 가요라고 불렀지만, 최근 영미권의 대중음악을 팝(Pop)이라고 부르고 영미권 이외 국가의 대중가요는 국가 이니셜에 Pop을 덧붙여 표기하는 추세다(태국 가요는 T-Pop, 일본 가요는 J-Pop, 중국 가요는 C-Pop). 이에 한국 가요도 흔히 K-Pop이라고 부른다.
+            </p>
+            <div>2000</div>
+            <p>
+                K-Pop은 2000년대 중반부터 아시아권을 시작으로 본격적으로 해외에 진출하기 시작했으며, 현 재 동남아를 넘어 유럽, 미국, 남미로까지 영역을 확대해 가고 있다. 2000년대 중반 동방신기, 카라, 빅뱅, 소녀시대, 2NE1 등의 아이돌그룹이 중국, 일본, 대만, 싱가포르 등 아시아권에서 폭발적인 인기 를 얻으며 K-Pop은 존재를 알리기 시작했다.
+            </p>
+            <div>2009</div>
+            <P>
+                걸그룹 원더걸스가 ‘Nobody’로 미국에 진출해 한국 가수 최초로 빌보드 핫 100 차트에 진입했다.
+            </P>
+            <div>2012</div>
+            <p>
+                싸이의 ‘강남 스타일’이 빌보드 핫100 차트 7주 연속 2위에 오르고 유튜브에서 뮤직비디오 조회 수 30억 뷰를 돌파하면서 K-Pop 열풍이 본격적으로 전 세계로 확산되기 시작했다.
+            </p>
+            <div>2019 ~</div>
+            <div>BTS Syndrome</div>
+            <p>
+                BTS가 빌보드 200 차트 1위에 오르고 3년 연속 ‘빌보드 뮤직 어워드’ 톱 소셜 아티 스트상에 오르는 등 전 세계의 주목을 받으면서 K-Pop은 하나의 장르로 당당히 인정받았다. BTS는 2020년 2월 앨범 ‘MAP OF THE SOUL : 7’로 빌보드 200 차트 1위 진입 후 23주 연속 상위권을 지켰 으며, 라이브 스트리밍 음악 콘서트 최다 시청률을 기록하는 등 각종 기네스 기록을 보유하고 있다. 2020년 8월에는 영어 싱글 곡 ‘다이너마이트’가 한국인 최초로 미국 빌보드 싱글차트 ‘핫100’ 1위에 오르는 기록을 달성했다.
+            </p>
+            <p>
+                K-Pop은 여러 면에서 특별한 가치를 지니는데, 그 가치는 단순히 음악에만 국한되지 않는다. K-Pop의 인기 비결은 뛰어난 가창력, 능숙한 무대 매너, 현란한 댄스가 어우러진 화려한 공연에 있다. 공연을 완성하는 아이돌그룹의 노래와 안무는 하루 이틀에 생겨난 것이 아니다. 수년간의 철저한 사전 기획과 연습생 시기 동안의 체계적인 훈련과 노력의 결과물이다.
+            </p>
+            <p>
+                팬들과의 활발한 소통은 K-Pop의 뜨거운 인기를 설명하는 또 다른 포인트다. 아이돌그룹 멤버 들은 소셜미디어를 활용해 세계 각국의 팬들과 실시간으로 소통하면서 발빠르게 친밀감과 유대감을 형성한다.
+            </p>
+            <p>
+                팬들은 활발한 팬클럽 활동을 통해 자신이 응원하는 가수와 나아가 K-Pop 발전에 기여하고 있다. 팬들은 가수를 단순히 스타로만 생각하지 않는다. 아이돌그룹의 데뷔 혹은 초창기 시절부터 응원해 온 팬들은 순수했던 멤버들이 소년·소녀에서 성년으로 성장해가는 과정을 지켜보며, 자신들도 함께 성장하는 것 같은 만족감과 보람을 공유하며 강한 유대감을 형성한다.
+            </p>
+        </section>
     <footer>
 
     </footer>
+
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/clock.js"></script>
-    <script src="js/login.js"></script>
+    <script src="js/loading.js"></script>
 </body>
 </html>

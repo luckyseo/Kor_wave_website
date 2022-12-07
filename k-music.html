@@ -7,26 +7,39 @@
     <meta property="og:image" content="img/citystreet.jpg">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="img/korflag.jpg">
-    <title>K-Music</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Korea Wave</title>
 </head>
 <body>
+    <div class="loading">
+        <div class="center">
+        <div class="loading_sentence">Ready to dive in Korean wave?</div>
+        <div class="loading_sentence">Loading ...</div>
+        </div>
+    </div>
     <div class="status_bar">
         <div class="status_bar_right"></div>
         <div class="status_bar_center clock">
             <span>KST</span>
             <span>00:00</span>
         </div>
-        <div class="status_bar_left">
-            <div class="lang"><span>언어</span></div>
-            <button class="logIn">log In</button>
+        <div class="status_bar_left hidden">
+            <button class="lang" >Lang</button>
+            <button class="logIn" onclick="location.href='login.html'">log In</button>
         </div>
+    </div>
+        
+    <div class="Banner">
+        <h2 class="BannerAnimation">K-Music</h2>
     </div>
     <header class="nav_bar">
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_menu" >
                     <a class="nav_link" href="index.html" >
-                        <span>Home</span>
+                        <span>HOME</span>
                     </a>
                 </li >
                 <li class="nav_menu">
@@ -34,9 +47,6 @@
                 </li>
                 <li class="nav_menu">
                     <a class="nav_link" href="k-drama.html"><span>K-Drama</span></a>
-                </li>
-                <li class="nav_menu">
-                    <a class="nav_link" href="k-musical.html"><span>K-Musical</span></a>
                 </li>
                 <li class="nav_menu">
                     <a class="nav_link" href="k-music.html"><span>K-Music</span></a>
@@ -48,18 +58,29 @@
                     <a class="nav_link" href="k-art.html"><span>K-Art</span></a>
                 </li>
                 <li class="nav_menu">
-                    <a class="nav_link" href="#"><span>인식</span></a>
+                    <a class="nav_link" href="k-movie.html"><span>K-Movie</span></a>
                 </li>
             </ul>
         </nav>
     </header>
-
+    <section class="k-music__intro">
+        <p>2015년 세계 최고 권위의 폴란드 국제 쇼팽 피아노 콩쿠르에서 피아니스트 조성진이 한국인 최초로 우승했다. 피아니스트 손정범은 2017 뮌헨 에이알디(ARD) 국제음악콩쿠르 피아노 부문에서 한국인 최초로 1위를 수상했다.</p>
+        <p>이외에도 2016년에는 이탈리아 베르첼리에서 열린 ‘안 바티스타 비오티’ 국제 음악 콩쿠르에서 한국 성악가들이 1~3위를 석권했으며, 같은 해 ‘프라하 봄’ 국제 음악 콩쿠르에서도 한국인 피아니스 트들이 나란히 1~3위를 거머쥐었다.</p>
+        <div>Singer</div>
+        <p>성악 부문에는 소프라노 조수미, 홍혜경, 신영옥, 베이스 연광철, 베이스바리톤 사무엘 윤 등이 활약하고 있다.</p>
+        <div>Instrument</dov>
+        <p>기악 부문에는 피아니스트로 손열음, 임동혁, 바이올리니스트 장영주, 신현수 등이 주목받고 있다.</p>
+        <p>네 손가락의 피아니스트로 알려진 이희아도 의욕적인 무대를 보여주고 있다. 한동일과 백건우는 이미 1950~1970년대부터 국제무대에서 이름을 날린 1세대 피아니스트다.</p>
+        <p>세계적인 피아니스트 정명훈은 지휘자로도 명성을 날리고 있다. 베를린 필, 런던 필, 파리 오케 스트라 등의 객원 지휘자를 거쳐 파리 바스티유오페라단 음악 총감독 겸 상임 지휘자를 지냈다. 한국에서도 서울시향 상임 지휘자를 지낸 뒤 현재 원코리아 유스오케스트라의 음악감독을 맡고 있다. 누나인 정명화(첼로), 정경화(바이올린)와 함께 ‘정 트리오’라는 이름으로 세계 음악계에 이름 을 날린 주인공이다.</p>
+        <p>한국이 낳은 세계적인 지휘자 김은선은 2021년부터 샌프란시스코 오페라단의 음악감독을 맡게 됐다. 이번 발탁을 통해 김은선은 미국의 메이저 오페라단에서 음악감독을 맡는 최초의 여성 지휘자 로서, 클래식 음악계에 새로운 역사를 썼다는 평가를 받았다.</p>
+    </section>
     <footer>
 
     </footer>
+
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/clock.js"></script>
-    <script src="js/login.js"></script>
+    <script src="js/loading.js"></script>
 </body>
 </html>
