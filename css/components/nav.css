@@ -22,6 +22,12 @@
     font-size:large;
     font-weight: bold;
 }
+
 .nav_link:visited{
     text-decoration: none;
+}
+
+.nav_link:hover{
+    border-bottom: 1.5px solid whitesmoke;
+    transition: 0.1s ease-in-out;
 }
