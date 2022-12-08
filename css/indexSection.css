@@ -1,8 +1,15 @@
-.Kor_wave_ex{
+.Kor_wave_ex,
+.sec_ex{
     margin-left: 20%;
     margin-right: 25%;
     width: 65%;
 }
-.Kor_wave_ex p{
+.Kor_wave_ex p,
+.sec_ex p{
     line-height: 1.5;
+}
+
+.sec_ex div{
+    text-align: center;
+    font-weight: bold;
 }
