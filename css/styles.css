@@ -3,7 +3,6 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');/**/
 @import "reset.css";
-@import "variables.css";
 
 /*compoenets*/ 
 @import "components/nav.css";
